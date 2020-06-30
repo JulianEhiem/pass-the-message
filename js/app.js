@@ -22,3 +22,28 @@
 //    }
 //})
 //})()
+
+const input = document.querySelector("#message");
+const submit = document.querySelector("#messageSubmit");
+const previousText = document.querySelector(".previousMessage");
+const error = document.querySelector(".error-message");
+
+submit.addEventListener("click", passMessage);
+
+function passMessage(e) {
+  e.preventDefault();
+  if (input.value.length === 0) {
+    error.innerHTML = "Please Enter a Value";
+  } else {
+    previousText.innerHTML = input.value;
+    error.innerHTML = "";
+  }
+
+  resetCard();
+}
+
+function resetCard() {
+  if (input.value.length !== 0) {
+    input.value = "";
+  }
+}

@@ -47,7 +47,7 @@ body {
   background: var(--primary-color);
   display: grid;
   grid-template-columns: 20px 1fr 20px;
-  grid-template-rows: 0.5fr 1fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
     ".. ..  .."
     ".. card .."
