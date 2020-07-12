@@ -1,6 +1,6 @@
 # Pass-the-Message-Project
 
-> A small JavaScript program that allows the user to input a message and see it in an another location on the page.
+> A small JavaScript program that allows the user to input a message and see it in another location on the page.
 
 ![](img/pass-the-message-screenshot.png)
 
